@@ -14,6 +14,8 @@
 		D0DCFF0A218A3B45001729CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DCFF08218A3B45001729CE /* LaunchScreen.storyboard */; };
 		D0DCFF15218A3B45001729CE /* CanadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCFF14218A3B45001729CE /* CanadaTests.swift */; };
 		D0DCFF20218A3B45001729CE /* CanadaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCFF1F218A3B45001729CE /* CanadaUITests.swift */; };
+		D0DCFF97218A4081001729CE /* DataModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCFF95218A4081001729CE /* DataModelManager.swift */; };
+		D0DCFF98218A4081001729CE /* DataModelClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCFF96218A4081001729CE /* DataModelClasses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D0DCFF1B218A3B45001729CE /* CanadaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanadaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DCFF1F218A3B45001729CE /* CanadaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadaUITests.swift; sourceTree = "<group>"; };
 		D0DCFF21218A3B45001729CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0DCFF95218A4081001729CE /* DataModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModelManager.swift; sourceTree = "<group>"; };
+		D0DCFF96218A4081001729CE /* DataModelClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModelClasses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		D0DCFEFE218A3B43001729CE /* Canada */ = {
 			isa = PBXGroup;
 			children = (
+				D0DCFF96218A4081001729CE /* DataModelClasses.swift */,
+				D0DCFF95218A4081001729CE /* DataModelManager.swift */,
 				D0DCFEFF218A3B43001729CE /* AppDelegate.swift */,
 				D0DCFF01218A3B43001729CE /* ViewController.swift */,
 				D0DCFF03218A3B43001729CE /* Main.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0DCFF02218A3B43001729CE /* ViewController.swift in Sources */,
+				D0DCFF97218A4081001729CE /* DataModelManager.swift in Sources */,
+				D0DCFF98218A4081001729CE /* DataModelClasses.swift in Sources */,
 				D0DCFF00218A3B43001729CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
